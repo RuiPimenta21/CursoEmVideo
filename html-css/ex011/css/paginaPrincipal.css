@@ -1,0 +1,34 @@
+body{
+    background-color: #e8e6e7;
+    margin: 2%;
+    font-family: Verdana, sans-serif;
+}
+h1{
+    color: #915a3c;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: #915a3c;
+}
+p{
+    margin: 2%;
+    text-align: justify;
+    font-size: 15px;
+    color: #4c7972;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(53, 125, 167);
+    border-width: 2pt;
+}
+a{
+    color: #4c7972;
+}
+i{
+    color: #915a3c;
+}
