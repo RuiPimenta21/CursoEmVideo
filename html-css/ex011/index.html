@@ -5,8 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagens dinâmicas</title>
+    <link rel="shortcut icon" href="Elegantthemes-Beautiful-Flat-Compose.ico" type="image/x-icon">
 </head>
 <body>
-    
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem_300_300.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem_700_700.png" type="image/png">
+        <img src="imagens/imagem_1000_1000.png" alt="Imagem dinâmica">
+    </picture>
 </body>
 </html>
