@@ -1,0 +1,35 @@
+body{
+    margin: 1%;
+    background-color: rgb(60, 60, 60);
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+img.menuPrincipal{
+    width: 490px;
+    height: 350px;
+    border-radius: 10px;
+}
+img.botao{
+    width: 100px;
+    height: 100px;
+}
+div{
+    text-align: center;
+}
+p{
+    color: white;
+}
+a{
+    color: white;
+}
+iframe.videos{
+    width: 1024px;
+    height: 575px;
+}
