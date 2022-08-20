@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to right, #41658A, #9DB5B2);
+}
+h1{
+    background: #EAC435;
+    background: linear-gradient(to right, #EAC435 0%, #B0413E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
