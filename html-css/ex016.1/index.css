@@ -4,10 +4,26 @@
     font-family: 'Chomsky';
     src: url('fonte/Chomsky.otf');
 }
+@font-face {
+    font-family: 'FetteClassicUNZFraktur';
+    src: url('fonte/FetteClassicUNZFraktur.ttf');
+}
+@font-face {
+    font-family: 'FetteUNZFraktur';
+    src: url('fonte/FetteUNZFraktur.ttf');
+}
+
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
     font-family: 'Chomsky', Times, serif;
     font-size: 3em;
+}
+h2{
+    font-family: 'FetteClassicUNZFraktur', Times, serif;
+}
+h3{
+    font-family: 'FetteUNZFraktur', Times, serif;
 }
