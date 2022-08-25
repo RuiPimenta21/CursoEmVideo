@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+
+/* 
+    HTML     |   CSS     |
+------------------------
+    id      |   #        |   para um unico
+    class   |   .        |   para mais que um
+
+    */
+
+body{
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #1e402f;
+}
+h1#principal{
+    text-align: center;
+    background-color: #ec805e;
+    color: white;
+}
+h2{
+    color: #3c805e;
+}
+h2.basico{
+    color: #3c805e;
+}
+h2.intermedio{
+    color: #80793c;
+}   
+h2.avancado{
+    color:  #803c3c;
+}
