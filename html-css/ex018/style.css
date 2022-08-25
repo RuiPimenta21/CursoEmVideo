@@ -7,7 +7,11 @@
     id      |   #        |   para um unico
     class   |   .        |   para mais que um
 
-    */
+
+    é possivel ter 2 classes 
+    é possivel teer um id e uma class (id sobrepoem a class caso tenha atributos com nomes iguais)
+
+*/
 
 body{
     background-color: #d6fde9;
@@ -32,4 +36,13 @@ h2.intermedio{
 }   
 h2.avancado{
     color:  #803c3c;
+}
+.destaque1{
+    background-color: rgb(255, 0, 119);
+}
+.destaque2{
+    color: #7aec5e;
+}
+#destaque3{
+    background-color: rgb(127, 161, 255);
 }
