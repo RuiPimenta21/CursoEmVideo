@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+div{
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: justify;
+    height: 200px;
+    width: 200px;
+}
+br {
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 24%;
+  }
+/*Pseudo-classes
+
+    hover-quando passa o rato por cima
+*/
+div:hover{
+    background-color: yellow;
+}
+/*Paragrafos dentro de div ficam escondidos*/
+div > p{
+    display: none;
+}
+/*Paragrafos dentro de div ficam a mostra quando passa por cima o rato*/
+div:hover > p {
+    display: block;
+}
