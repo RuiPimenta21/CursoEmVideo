@@ -1,29 +1,40 @@
 @charset "UTF-8";
-
-div{
+div#grande{
     display: inline-block;
     background-color: lightgray;
     border: 1px solid black;
     text-align: justify;
     height: 200px;
+    width: 610px;
+    font-size: 22px;
+    text-align: center;
+}
+div{
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    height: 200px;
     width: 200px;
+    text-align: center;
 }
 br {
     content: "";
-    margin: 2em;
+    margin: 16px;
     display: block;
     font-size: 24%;
-  }
+}
 /*Pseudo-classes
 
-    hover-quando passa o rato por cima
+    div:hover-quando passa o rato por cima da div
 */
 div:hover{
     background-color: yellow;
 }
+
 /*Paragrafos dentro de div ficam escondidos*/
 div > p{
     display: none;
+    color: brown;
 }
 /*Paragrafos dentro de div ficam a mostra quando passa por cima o rato*/
 div:hover > p {
