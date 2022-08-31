@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+
+
+
+/* *** Pseudo-classes *** */
+
+a:visited{
+    color: green;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+
+/* *** Pseudo-elementos *** */
+a::before{
+    content: ' ☠ ';
+}
+a::after{
+    content: ' ☠ ';
+}
+
+
+
+
