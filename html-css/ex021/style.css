@@ -1,0 +1,10 @@
+@charset "UTF-8";
+h1{
+    background-color: grey;
+    height: 300px;
+    width: 500px;
+}
+h2{
+    display: inline;  /*line ou block*/
+
+}
