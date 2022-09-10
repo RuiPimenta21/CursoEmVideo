@@ -1,0 +1,107 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+}
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+header > h1{
+    display: inline;
+}
+header > h2{
+    display: inline;
+    font-size: 18px;
+    margin-left: 57%;
+}
+.navegador1 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    background-color: #333;
+    border-start-start-radius: 25px;
+    border-start-end-radius: 25px;
+    border-end-start-radius: 25px;
+    border-end-end-radius: 25px;
+} 
+.navegador2 {
+    float: left;
+    overflow: hidden;
+    margin-left: 10px;
+} 
+.navegador1 a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navegador2 .navegador2btn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+}
+.navegador1 a:hover, .navegador2:hover .navegador2btn {
+    background-color: red;
+} 
+.navegador2-content {
+    margin-left: 50px;
+    margin-right: 50px;
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: red;
+    border-end-start-radius: 25px;
+    border-end-end-radius: 25px;
+}
+.navegador2-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+.navegador2-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+.navegador2:hover .navegador2-content {
+    display: block;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+article{
+    background-color: lightgrey;
+    padding: 5px;
+}
+td {
+    font-size: 12px;
+}
+article > aside {
+    background-color: rgb(165, 165, 165);
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 10px;
+}
+h2{
+    margin-bottom: 0px;
+}
+td > h1{
+    color:  #333; 
+    text-align: center;
+    font-size: 30px;
+}
