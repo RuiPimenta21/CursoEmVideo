@@ -27,11 +27,13 @@ main{
     background-color: white;
     padding: 10px;
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 article{
     background-color: lightgrey;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 10px;
+
 }
 article > aside {
     background-color: rgb(165, 165, 165);
@@ -44,5 +46,5 @@ footer{
     margin: 0px;
 }
 footer > p {
-    margin: 0;
+    margin: 0px;
 }
