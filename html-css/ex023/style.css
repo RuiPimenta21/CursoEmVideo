@@ -38,7 +38,7 @@ header > p{
     margin-right: 27%;
     margin-bottom: 2%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: normal;
 }
 header > nav{
@@ -72,6 +72,7 @@ main > section > h2{
 main > section > p{
     text-indent: 16px;
     text-align: justify;
+    font-size: 12px;
 }
 
 main > article{
@@ -92,6 +93,7 @@ main > article > h3{
 main > article > p{
     text-align: justify;
     text-indent: 16px;
+    font-size: 12px;
 }
 article > article{
     padding-left: 20px;
@@ -107,33 +109,32 @@ article > article > p{
     margin-bottom: 0px;
     text-indent: 16px;
     padding-top: 16px;
-
+    font-size: 12px;
 }
 article > article > article{
     width: 50%;
     margin-left:0px;
     margin-right: 0px;
     padding-left: 0px;
-    text-align: left;
-    
+    text-align: left; 
 }
 article > article > article > ol{
-    list-style: none;
-    display: flex;
-    flex-flow: column wrap;
-    height: 150px;
-    width: 100%;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
     padding-left: 0px;
 }
 ol > li{
     padding: 0px;
     margin: 0px;
-    font-size: 12px;
+    font-size: 8px;
     margin-left: 10px;
     margin-right: 10px;
+    list-style: none;
 }
 li > a{
     color: black;
+    min-width: 250px;
 }
 footer{
     margin-top: 20px;
@@ -146,6 +147,7 @@ footer > p {
     margin-bottom: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 12px;
 }
 img {
     display: block;
@@ -193,9 +195,14 @@ img {
     width: 100%;
     height: 100%;
 }
-li {
-    display:relative;
+.listaCentrada{
+    width: 100%;
+    min-width: 50%;
 }
+.retiraMarginOl{
+    margin-bottom: auto;
+}
+
 li::before{
     content: ' \2714';
 }
