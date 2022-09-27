@@ -43,10 +43,11 @@ header > p{
 }
 header > nav{
     background-color: #1a5c3800;
+    padding-bottom: 5px;
 }
 nav > a{
+    padding: 5px;
     color: white;
-    margin-left: 14px;
     text-decoration: none;
     font-size: 14px;
     font-weight: normal;
@@ -206,3 +207,12 @@ img {
 li::before{
     content: ' \2714';
 }
+nav > a:hover{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid rgba(255, 0, 0, 0);
+    border-radius: 5px;
+    background-color: #36c2758a;
+}
+
