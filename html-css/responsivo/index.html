@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        
         body{
-           background-color: grey; 
+           background-color: grey;
         }
         main{
             background-color: white;
             padding: 20px;
             border-radius: 10px;
-            min-width: 320px; /*tamanho minimo de alguns telemoveis*/
+            min-width: 245px; /*tamanho minimo de alguns telemoveis 320, mas eu ja dou padding , logo 300*/
             max-width: 800px;
             margin: auto;  /*centra o main*/
         }
@@ -27,8 +28,6 @@
             position: relative;
             margin-left: auto;
             margin-right: auto;
-            padding-left: 20px;
-            padding-right: 20px;
             padding-top: 56.25%; 
         }
         .responsive-iframe {
@@ -40,6 +39,14 @@
             width: 100%;
             height: 100%;
         }
+        ol{
+            padding: 0;;
+            width: 100%;
+            list-style-type: '\2714\00A0\00A0'; /*2741 codigo Emojipedia*//* 00A0 -> Espaçamento*/
+            list-style-position: inside;
+            columns: 3;
+        }
+        
     </style>
 </head>
 <body>
@@ -52,6 +59,17 @@
             <iframe width="750" iframe class="responsive-iframe" src="https://www.youtube.com/embed/l2UDgpLz20M" title="The next evolution of Android" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </article>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga veniam recusandae doloremque. Minus delectus minima quas ipsum itaque, nihil laborum deleniti ducimus sequi quibusdam, tenetur maxime, quia dignissimos velit quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente impedit, dolorum nobis esse nulla consequuntur molestiae magnam, voluptates deleniti similique earum iste. Sunt temporibus numquam, odio corrupti earum laudantium quisquam?</p>
+        <ol>
+            <li>Rui</li>
+            <li>Andre</li>
+            <li>Maria</li>
+            <li>Mario</li>
+            <li>Paulo</li>
+            <li>Tiago</li>
+            <li>João</li>
+            <li>Leandro</li>
+        </ol>
+    
     </main>
 </body>
 </html>
