@@ -5,6 +5,7 @@ Estou a aprender a criar sites e agora vou grenciar repositórios.
 
 
 HTML & CSS
+<br>
 <a href="https://ruipimenta21.github.io/CursoEmVideo/html-css/ex001/index.html">Executar exercicio 001</a>
 <br>
 <a href="https://ruipimenta21.github.io/CursoEmVideo/html-css/ex001/index.html">Executar exercicio 002</a>
@@ -70,7 +71,7 @@ HTML & CSS
 <a href="https://ruipimenta21.github.io/CursoEmVideo/html-css/ex001/index.html">Executar exercicio 023</a>
 
 HTML & CSS - Outros
-
+<br>
 <a href="https://ruipimenta21.github.io/CursoEmVideo/html-css/ex001/index.html">Executar exercicio alugar</a>
 <br>
 <a href="https://ruipimenta21.github.io/CursoEmVideo/html-css/ex001/index.html">Executar exercicio responsivo</a>
