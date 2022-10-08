@@ -14,6 +14,13 @@ body {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    /*
+                        Shorthand-background
+
+        color -> image -> position -> repeat -> [size] -> attachement
+
+        background: black url('wallpaper002.jpg') center center cover fixed;
+    */
 }
 main {
     margin: auto;
