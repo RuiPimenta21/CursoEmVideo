@@ -4,6 +4,14 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    max-width: 1300px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    margin: auto;
+}
 div.bloco {
     height: 200px;
     border-style: solid;
