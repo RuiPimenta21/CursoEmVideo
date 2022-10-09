@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'EBGaramond-Bold';
+    src: url('fontes/EBGaramond-Bold.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body.normal{
+    min-width: 245px;
+}
+header {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+header > h1 {
+    text-align: center;
+    font: normal bold 30px 'EBGaramond-Bold', Times, serif;
+}
+header > p {
+    text-align: center;
+}
+p > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+p > a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+}
+
+section.normal {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 500px;
+    color: black;
+    background-color: white;
+}
+section.imagem{
+    padding-left: 20px;
+    padding-right: 30px;
+    height: 500px;
+    position: relative;
+}
+section.imagem > p{
+    position: absolute;
+    height: 300px;
+    top: 50%;
+    transform: translate(0%, -50%);
+    box-shadow: 5px 5px 5px #00000098;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+    padding: 10px;
+}
+section.imagem#imagem1 {
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('imagens/background001.jpg');
+}
+section.imagem#imagem2 {
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('imagens/background002.jpg');
+}
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
