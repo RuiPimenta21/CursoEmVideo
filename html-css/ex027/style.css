@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'EBGaramond-Bold';
-    src: url('fontes/EBGaramond-Bold.ttf');
+    font-family: 'PassionOne-Bold';
+    src: url('fontes/PassionOne-Bold.ttf');
 }
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Passion+One&display=swap');
 
 * {
     margin: 0px;
@@ -15,15 +17,16 @@ body.normal{
 header {
     background-color: black;
     color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 header > h1 {
     text-align: center;
-    font: normal bold 30px 'EBGaramond-Bold', Times, serif;
+    font: normal bold 90px 'PassionOne-Bold', Times, serif;
 }
 header > p {
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Courier, monospace;
 }
 p > a {
     text-decoration: none;
@@ -35,14 +38,26 @@ p > a:hover {
     font-weight: bold;
     color: white;
 }
-
 section.normal {
+    position: relative;
+    height: 100vh;
+    background-size: 100% 100%;
     padding-left: 30px;
     padding-right: 30px;
     height: 500px;
     color: black;
     background-color: white;
 }
+section.normal > p{
+    position: absolute;
+    height: 300px;
+    top:50%;
+    transform: translate(0%, -50%);
+    background-color: white;
+    font-family: 'Passion One', cursive;
+
+}
+
 section.imagem{
     padding-left: 20px;
     padding-right: 30px;
@@ -58,6 +73,7 @@ section.imagem > p{
     background-color: rgba(0, 0, 0, 0.493);
     color: white;
     padding: 10px;
+    font-family: 'Passion One', cursive;
 }
 section.imagem#imagem1 {
     background-repeat: no-repeat;
