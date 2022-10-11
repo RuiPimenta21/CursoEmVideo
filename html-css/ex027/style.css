@@ -4,12 +4,18 @@
     font-family: 'PassionOne-Bold';
     src: url('fontes/PassionOne-Bold.ttf');
 }
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Passion+One&display=swap');
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'PassionOne-Bold';
+    --fonte3: 'Sriracha', cursive;
+}
 
 * {
     margin: 0px;
     padding: 0px;
+    font-family: var(--fonte1);
 }
 body.normal{
     min-width: 245px;
@@ -17,16 +23,14 @@ body.normal{
 header {
     background-color: black;
     color: white;
-    padding-top: 60px;
-    padding-bottom: 40px;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 header > h1 {
-    text-align: center;
-    font: normal bold 90px 'PassionOne-Bold', Times, serif;
-}
-header > p {
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Courier, monospace;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
 }
 p > a {
     text-decoration: none;
@@ -38,42 +42,31 @@ p > a:hover {
     font-weight: bold;
     color: white;
 }
+section {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+section > p {
+    font-family: var(--fonte3);
+    font-size: 3vw;
+}
 section.normal {
-    position: relative;
-    height: 100vh;
-    background-size: 100% 100%;
-    padding-left: 30px;
-    padding-right: 30px;
-    height: 500px;
     color: black;
     background-color: white;
+    padding-left: 30px;
 }
 section.normal > p{
-    position: absolute;
-    height: 300px;
-    top:50%;
-    transform: translate(0%, -50%);
-    background-color: white;
-    font-family: 'Passion One', cursive;
-
+    background-color: (0,0,0,0.253);
 }
-
 section.imagem{
+    color: white;
+    background-color: black;
     padding-left: 20px;
-    padding-right: 30px;
-    height: 500px;
-    position: relative;
 }
 section.imagem > p{
-    position: absolute;
-    height: 300px;
-    top: 50%;
-    transform: translate(0%, -50%);
-    box-shadow: 5px 5px 5px #00000098;
-    background-color: rgba(0, 0, 0, 0.493);
-    color: white;
-    padding: 10px;
-    font-family: 'Passion One', cursive;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.500);
+    padding-left: 10px;
 }
 section.imagem#imagem1 {
     background-repeat: no-repeat;
@@ -90,9 +83,10 @@ section.imagem#imagem2 {
     background-image: url('imagens/background002.jpg');
 }
 footer {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
     background-color: black;
     color: white;
     text-align: center;
+    font-size: 1vh;
 }
