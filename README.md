@@ -77,7 +77,7 @@ HTML & CSS
 <br>
 <a href="https://ruipimenta21.github.io/CursoEmVideo/html-css/ex026/index.html">Executar exercicio 026</a>
 <br>
-<a href="https://ruipimenta21.github.io/CursoEmVideo/html-css/ex027/index.html">Executar exercicio 027s</a>
+<a href="https://ruipimenta21.github.io/CursoEmVideo/html-css/ex027/index.html">Executar exercicio 027</a>
 
 
 HTML & CSS - Outros
