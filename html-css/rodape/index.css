@@ -1,0 +1,41 @@
+.btn{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #c93333;
+    height: 3rem;
+    padding: 0;
+    border-radius: 2rem;
+}
+input{
+    position: absolute;
+    transform: scale(0);
+}
+.btn-icon{
+    font-size: 1.5rem;
+    transition: all 0.35s;
+}
+.btn-text{
+    position: absolute;
+    left: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%) translateX(1.25rem);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 0.875rem;
+    color: rgb(185, 29, 29);
+    transition: all 0.35s;
+}
+input:checked > .btn{
+    background: #867c48;
+}
+input:checked > .btn-text{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-50%) translateX(2.5rem);
+}
+input:checked > .btn-icon{
+    transform: translateY(-1.5rem);
+}

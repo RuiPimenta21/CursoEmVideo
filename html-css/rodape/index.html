@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: black;
+            align-items: center;
+        } 
+        #abc{
+            background-color: rgb(51, 50, 50);
+            display: block;
+            border-radius: 10px 10px 10px 10px;
+            text-align: center;
+        }
+        label{
+            align-items: center;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+       
+        input {
+            position: absolute;
+            transform: scale(0);
+            text-align: center;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .button {
+            position: relative;
+            display: inline-block;
+            flex-direction: line;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            color: white;
+            padding-top:10px;
+        }
+        .button-text{
+            font-size: 12px;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            bottom: 0;
+            color: #76b0df;
+            visibility: hidden;
+            opacity: 0;
+            transition: all 0.35s;
+        }
+        input:checked ~ .button{
+            color: #76b0fd;
+        }
+        input:checked ~ .button .button-text {
+            visibility: visible;
+            opacity: 1;
+        }
+        input:checked ~ .button .uil{
+            transform: translateY(-9px);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="abc">
+        <label>
+            <input type="radio" name="tab-group-1" id="visualizar"/>
+            <span class="button">
+                <iconify-icon class="uil" icon="iconoir:printing-page"></iconify-icon>
+                <span class="button-text">Visualizar</span>
+            </span>
+        </label>
+
+        <label>
+            <input type="radio" name="tab-group-1" id="registar"/>
+            <span class="button">
+                <iconify-icon  class="uil" icon="codicon:save-as"></iconify-icon>
+                <span class="button-text">Registar</span>
+            </span>
+        </label>
+
+        <label>
+            <input type="radio" name="tab-group-1" id="editar"/>
+            <span class="button">
+                <iconify-icon class="uil" icon="clarity:note-edit-line"></iconify-icon>
+                <span class="button-text">Editar</span>
+            </span>
+        </label>
+    </div>
+
+</body>
+</html>
